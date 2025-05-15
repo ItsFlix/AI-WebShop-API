@@ -17,7 +17,7 @@ admin.initializeApp({
 const db = admin.firestore();
 
 // ======= Stripe Initialization =======
-const stripe = new Stripe('sk_test_YOUR_SECRET_KEY');
+const stripe = new Stripe('sk_test_51ROeDnRqXej72CsPpKoFNSBlwcYHodrzvTFnqEbbsHAxL2nN4D80jOdydGd7oLtQQEgPUbUpR5om56Y3cp4uCfyP00HW80ErNn');
 
 const app = express();
 const PORT = 3000;
